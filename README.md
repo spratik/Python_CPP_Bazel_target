@@ -15,13 +15,15 @@ and Past into below path.
            
          <path>/Python_CPP_Bazel_target/thirdParty/tensorflow/
 
-3) Open cmd.exe and go to below path.
+3) Open file(Python_CPP_Bazel_target\main\python_cpp.cc) and modify line number 11 (tensorflow env path with your tensorflow env path) 
+
+         std::string tensoflow_env = "C:\\Users\\PRATIK\\anaconda3\\envs\\tensorflow_GPU\\";
+
+4) Open cmd.exe and go to below path.
       
          <path>/Python_CPP_Bazel_target
 
-4) Open file(Python_CPP_Bazel_target\main\python_cpp.cc) and modify line number 11 (tensorflow env path with your tensorflow env path) 
 
-         std::string tensoflow_env = "C:\\Users\\PRATIK\\anaconda3\\envs\\tensorflow_GPU\\";
 
 5) Execute below bazel target.wait for some time to complete bazel target execution.
         
